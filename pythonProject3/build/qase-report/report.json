@@ -1,0 +1,40 @@
+{
+    "title": "Test run",
+    "execution": {
+        "start_time": 1712933075.2487159,
+        "end_time": 1712933075.729071,
+        "duration": 480,
+        "cumulative_duration": 320
+    },
+    "stats": {
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "broken": 0,
+        "muted": 0,
+        "total": 1
+    },
+    "results": [
+        {
+            "id": "f484b4dc-14b5-4718-b4e3-75f0eaf0d4a9",
+            "title": "test_registration",
+            "status": "passed",
+            "duration": 320,
+            "thread": "6100-MainThread"
+        }
+    ],
+    "threads": [
+        "6100-MainThread"
+    ],
+    "suites": [],
+    "environment": null,
+    "host_data": {
+        "system": "Windows",
+        "node": "BTU202-L",
+        "release": "10",
+        "version": "10.0.19045",
+        "machine": "AMD64",
+        "python": "3.10.11.final.0",
+        "pip": "22.3.1"
+    }
+}

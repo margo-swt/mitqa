@@ -1,0 +1,42 @@
+{
+    "id": "8d13d0fb-6ebb-47fd-8cbb-c04d2bec2e2e",
+    "title": "test_registration",
+    "signature": "test_btu_second.py::test_registration",
+    "run_id": null,
+    "testops_id": null,
+    "execution": {
+        "start_time": 1712937887.3935208,
+        "status": "passed",
+        "end_time": 1712937890.4000251,
+        "duration": 3006,
+        "stacktrace": null,
+        "thread": "2924-MainThread"
+    },
+    "fields": {},
+    "attachments": [],
+    "steps": [
+        {
+            "id": "278aaaa4-089a-4274-8385-04b6f896be8a",
+            "step_type": "text",
+            "data": {
+                "action": "First step",
+                "expected_result": null
+            },
+            "parent_id": null,
+            "execution": {
+                "start_time": 1712937887.4025226,
+                "status": "passed",
+                "end_time": 1712937890.398023,
+                "duration": 2995
+            },
+            "attachments": [],
+            "steps": []
+        }
+    ],
+    "params": {},
+    "author": null,
+    "relations": [],
+    "muted": false,
+    "message": null,
+    "suite": null
+}

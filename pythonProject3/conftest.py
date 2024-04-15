@@ -2,6 +2,7 @@ from selenium import webdriver
 
 
 class DriverSetUp:
-    # Set up Chrome browser and the website page to load before tests execution
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get("https://codenboxautomationlab.com/registration-form/")
+    # driver.implicitly_wait(10)
