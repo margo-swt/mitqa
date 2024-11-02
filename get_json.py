@@ -1,9 +1,9 @@
-import requests
+import request_json_placeholder
 import logging
-
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
 
 def get_json():
     url = "https://jsonplaceholder.typicode.com/posts"
@@ -24,6 +24,7 @@ def get_json():
             "message": "Error: Unexpected status code",
             "data": None
         }
+
 
 def create_data(data):
     url = "https://jsonplaceholder.typicode.com/posts"
